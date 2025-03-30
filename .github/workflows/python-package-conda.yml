@@ -1,6 +1,7 @@
 name: webCrawler
 
-on: 
+on:
+  workflow_dispatch:
   schedule:
     - cron: '*/5 18,23,14,22 * * *'
 
