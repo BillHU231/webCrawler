@@ -3,7 +3,7 @@ name: webCrawler
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/5 23,15 * * *'
+    - cron: '0 2,7 * * *'
 
 jobs:
   build-linux:
