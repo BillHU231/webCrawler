@@ -2,7 +2,7 @@ name: webCrawler
 
 on: 
   schedule:
-    - cron: '*/10 18,23,5 * * *'
+    - cron: '*/5 18,23,14 * * *'
 
 jobs:
   build-linux:
